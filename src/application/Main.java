@@ -1,11 +1,17 @@
 package application;
 	
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Rectangle2D;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
 
@@ -26,6 +32,19 @@ public class Main extends Application {
 			primaryStage.setWidth(primaryScreenBounds.getWidth());
 	        primaryStage.setHeight(primaryScreenBounds.getHeight());
 			primaryStage.show();	
+			try 
+			{	    	
+				Class.forName("com.mysql.jdbc.Driver");  
+				Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/covid","root","password");  
+	            }catch(Exception e)
+	            {
+	         		Alert a1=new Alert(Alert.AlertType.ERROR);
+	            	a1.setTitle("ERROR");
+	            	a1.setContentText("Uable to not connect to database.");
+	                a1.setTitle("DATABASE NOT CONNECTED!");
+	                a1.setHeaderText(null);
+	                a1.showAndWait();
+	           	}
 		} catch(Exception e) {
 			e.printStackTrace();
 		}

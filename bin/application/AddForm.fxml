@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="formpage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="867.0" prefWidth="1368.0" style="-fx-background-color: #E3F2FD;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddFormController">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" />
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="773.0">
+               <children>
+                  <Label text="Full Name">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="fullname">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="773.0">
+               <children>
+                  <Label text="Age">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="age" prefHeight="33.0" prefWidth="87.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" />
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="773.0">
+               <children>
+                  <Label text="Email">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="email">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="773.0">
+               <children>
+                  <Label text="Address">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="addressbox">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" />
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="773.0">
+               <children>
+                  <Label text="Ward">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="ward">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="773.0">
+               <children>
+                  <Label text="Phone Number">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="phonenumber" prefHeight="33.0" prefWidth="222.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" />
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="773.0">
+               <children>
+                  <Label text="Type of Quarantine">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="other">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="773.0">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="224.0" text="Emergency Number">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="emergencynumber" prefHeight="33.0" prefWidth="222.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" />
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="773.0">
+               <children>
+                  <Label text="Temperature">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="temperature">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="773.0">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="224.0" text="Oxygen Level">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="oxygenlevel" prefHeight="33.0" prefWidth="222.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" />
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="773.0">
+               <children>
+                  <Label text="Date of admission">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <DatePicker fx:id="admindate">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </DatePicker>
+               </children>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="773.0">
+               <children>
+                  <Label text="Date of Discharge">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <DatePicker fx:id="dischargedate">
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </DatePicker>
+               </children>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" />
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="773.0">
+               <children>
+                  <Label text="Bill Amount">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="billamount">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="50.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" />
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="773.0">
+               <children>
+                  <Button fx:id="save" mnemonicParsing="false" onAction="#saveData" style="-fx-background-color: #9CC3D5FF;" text="Save">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="773.0">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <children>
+                  <Button fx:id="clear" mnemonicParsing="false" onAction="#clearData" style="-fx-background-color: #9CC3D5FF;" text="Clear">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="773.0">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <children>
+                  <Button fx:id="back" mnemonicParsing="false" onAction="#goBack" style="-fx-background-color: #9CC3D5FF;" text="Back">
+                     <font>
+                        <Font name="DejaVu Sans Bold" size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>
