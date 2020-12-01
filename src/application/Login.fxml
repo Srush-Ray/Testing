@@ -11,15 +11,7 @@
 
 <VBox fx:id="loginpage" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #E3F2FD;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginController">
    <children>
-      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
-         <children>
-            <Label text="Virtual Files">
-               <font>
-                  <Font name="FreeSans Bold" size="44.0" />
-               </font>
-            </Label>
-         </children>
-      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" />
       <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
       
          <children>

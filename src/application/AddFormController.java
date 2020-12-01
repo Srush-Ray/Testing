@@ -134,7 +134,7 @@ public class AddFormController {
 	    		}else if(phonenumberString.isEmpty() || checkforstr(phonenumberString) || phonenumberString.length()!=10) {
 	    			Alert a1=new Alert(Alert.AlertType.WARNING);
                 	a1.setTitle("WARNING");
-                    a1.setHeaderText("Phone Number is empty or contains characters. Enter only numbers!");
+                    a1.setHeaderText("Phone Number is empty or contains characters. Enter only numbers! 10 digits expected");
                     a1.showAndWait();
 	    		}else if(emergencyString.isEmpty() || checkforstr(emergencyString) || phonenumberString.length()!=10) {
 	    			Alert a1=new Alert(Alert.AlertType.WARNING);
